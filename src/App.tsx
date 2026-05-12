@@ -7,10 +7,8 @@ import {
   BrainCircuit,
   CalendarDays,
   Code2,
-  Github,
   Globe2,
   GraduationCap,
-  Linkedin,
   Mail,
   MapPin,
   Rocket,
@@ -206,10 +204,10 @@ function Hero() {
           </motion.p>
           <motion.div variants={fadeUp} className="mt-9 flex flex-col gap-4 sm:flex-row">
             <a className="glow-button group inline-flex items-center justify-center gap-2 rounded-full bg-cyan-300 px-6 py-3 font-semibold text-slate-950 transition hover:-translate-y-0.5" href="https://github.com/" target="_blank" rel="noreferrer">
-              <Github size={18} /> View GitHub <ArrowUpRight className="transition group-hover:translate-x-0.5 group-hover:-translate-y-0.5" size={18} />
+              <Code2 size={18} /> View GitHub <ArrowUpRight className="transition group-hover:translate-x-0.5 group-hover:-translate-y-0.5" size={18} />
             </a>
             <a className="inline-flex items-center justify-center gap-2 rounded-full border border-white/15 bg-white/[0.08] px-6 py-3 font-semibold text-white backdrop-blur transition hover:-translate-y-0.5 hover:border-cyan-200/60 hover:bg-white/[0.12]" href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
-              <Linkedin size={18} /> Connect on LinkedIn
+              <Users size={18} /> Connect on LinkedIn
             </a>
           </motion.div>
         </div>
@@ -313,7 +311,7 @@ function Projects() {
           </p>
         </div>
         <a className="inline-flex items-center justify-center gap-2 rounded-full border border-cyan-200/25 bg-cyan-200/10 px-6 py-3 font-semibold text-cyan-50 transition hover:-translate-y-0.5 hover:bg-cyan-200/15" href={`https://github.com/${githubUsername}`} target="_blank" rel="noreferrer">
-          <Github size={18} /> github.com/{githubUsername}
+          <Code2 size={18} /> github.com/{githubUsername}
         </a>
       </motion.div>
     </Section>
@@ -397,7 +395,7 @@ function Contact() {
               <Mail size={18} /> Email me
             </a>
             <a className="inline-flex items-center justify-center gap-2 rounded-full border border-white/15 bg-white/[0.08] px-6 py-3 font-semibold text-white backdrop-blur transition hover:border-cyan-200/60" href="https://github.com/" target="_blank" rel="noreferrer">
-              <Github size={18} /> GitHub
+              <Code2 size={18} /> GitHub
             </a>
           </div>
         </div>
