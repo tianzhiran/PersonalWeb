@@ -164,9 +164,9 @@ function Navigation() {
       <nav className="mx-auto flex max-w-7xl items-center justify-between rounded-full border border-white/10 bg-slate-950/55 px-5 py-3 shadow-2xl shadow-cyan-950/30 backdrop-blur-xl">
         <a href="#hero" className="flex items-center gap-2 font-display text-sm font-semibold tracking-[0.28em] text-cyan-100">
           <span className="flex h-8 w-8 items-center justify-center rounded-full bg-cyan-300 text-slate-950 shadow-lg shadow-cyan-400/30">
-            AI
+            ZR
           </span>
-          PORTFOLIO
+          Tian Zhiran
         </a>
         <div className="hidden items-center gap-6 text-sm text-slate-300 md:flex">
           {['About', 'Projects', 'Experience', 'Skills', 'Timeline', 'Contact'].map((item) => (
